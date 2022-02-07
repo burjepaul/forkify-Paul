@@ -4,10 +4,10 @@ import icons from '../../img/icons.svg';
 
 class BookmarksView extends View {
   _parentElement = document.querySelector('.bookmarks__list');
-  _errorMessage = 'No bookmarks yet. Find a nice recipe and update it!';
+  _errorMessage = 'No bookmarks yet. Find a nice recipe and bookmark it ;)';
   _message = '';
 
-  addHnadlerRender(handler) {
+  addHandlerRender(handler) {
     window.addEventListener('load', handler);
   }
 
